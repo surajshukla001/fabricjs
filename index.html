@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div id="cw" tabindex="0">
+        <canvas id="c" width="500" height="500" style="border:1px solid #ccc"
+        backgroundColor: '#c8c8c8'
+        ></canvas>
+        <button id="select">Selection mode</button>
+        <button id="selectDisable">
+         Draw
+        </button>
+        <div id="bottomButtons">
+            <div class="buttonsWrapper">
+                <p class="buttonsTitle">Image</p>
+                <input id="myImg" type="file" accept="image/*">
+            </div>
+        </div>
+     </div>
+
+<script src="./lib/fabric.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
